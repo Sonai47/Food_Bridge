@@ -1,0 +1,88 @@
+{
+  "donations": [
+    {
+      "id": "DON001",
+      "donorId": "USR001",
+      "foodName": "Vegetable Pulao",
+      "category": "Cooked Meals",
+      "description": "Freshly prepared vegetable pulao packed in food-grade containers.",
+      "quantity": 12,
+      "unit": "kg",
+      "servings": 40,
+      "preparedAt": "2026-10-31T16:30:00+05:30",
+      "pickupDeadline": "2026-10-31T21:00:00+05:30",
+      "address": "Salt Lake Sector V, Kolkata",
+      "status": "available",
+      "image": "/images/food/vegetable-pulao.jpg",
+      "foodSafety": {
+        "packaged": true,
+        "allergens": "Contains nuts",
+        "storage": "Keep covered; distribute promptly"
+      },
+      "createdAt": "2026-10-31T17:00:00+05:30"
+    },
+    {
+      "id": "DON002",
+      "donorId": "USR004",
+      "foodName": "Assorted Bread & Buns",
+      "category": "Bakery",
+      "description": "Unsold fresh bread rolls and buns from today's batch.",
+      "quantity": 8,
+      "unit": "kg",
+      "servings": 30,
+      "preparedAt": "2026-10-31T14:00:00+05:30",
+      "pickupDeadline": "2026-11-01T08:00:00+05:30",
+      "address": "Kestopur, Kolkata",
+      "status": "matched",
+      "image": "/images/food/bread-buns.jpg",
+      "foodSafety": {
+        "packaged": true,
+        "allergens": "Contains gluten; may contain milk",
+        "storage": "Store in a clean, dry place"
+      },
+      "createdAt": "2026-10-31T15:10:00+05:30"
+    },
+    {
+      "id": "DON003",
+      "donorId": "USR001",
+      "foodName": "Seasonal Fruit Boxes",
+      "category": "Fruits",
+      "description": "Fresh bananas, apples and oranges in mixed boxes.",
+      "quantity": 15,
+      "unit": "kg",
+      "servings": 25,
+      "preparedAt": "2026-10-31T12:00:00+05:30",
+      "pickupDeadline": "2026-11-01T10:00:00+05:30",
+      "address": "Salt Lake Sector V, Kolkata",
+      "status": "available",
+      "image": "/images/food/fruit-boxes.jpg",
+      "foodSafety": {
+        "packaged": true,
+        "allergens": "None declared",
+        "storage": "Keep cool and dry"
+      },
+      "createdAt": "2026-10-31T16:20:00+05:30"
+    },
+    {
+      "id": "DON004",
+      "donorId": "USR004",
+      "foodName": "Paneer Sandwiches",
+      "category": "Cooked Meals",
+      "description": "Individually wrapped paneer sandwiches, prepared this afternoon.",
+      "quantity": 20,
+      "unit": "pieces",
+      "servings": 20,
+      "preparedAt": "2026-10-31T15:45:00+05:30",
+      "pickupDeadline": "2026-10-31T20:30:00+05:30",
+      "address": "Kestopur, Kolkata",
+      "status": "delivered",
+      "image": "/images/food/paneer-sandwiches.jpg",
+      "foodSafety": {
+        "packaged": true,
+        "allergens": "Contains dairy and gluten",
+        "storage": "Keep covered; distribute promptly"
+      },
+      "createdAt": "2026-10-31T16:00:00+05:30"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "requests": [
+    {
+      "id": "REQ001",
+      "donationId": "DON002",
+      "recipientId": "USR002",
+      "requestedQuantity": 8,
+      "servingsNeeded": 30,
+      "urgency": "high",
+      "status": "approved",
+      "requestedAt": "2026-10-31T16:00:00+05:30",
+      "note": "Needed for evening meal service."
+    },
+    {
+      "id": "REQ002",
+      "donationId": "DON001",
+      "recipientId": "USR005",
+      "requestedQuantity": 10,
+      "servingsNeeded": 32,
+      "urgency": "medium",
+      "status": "pending",
+      "requestedAt": "2026-10-31T17:20:00+05:30",
+      "note": "For our community dinner programme."
+    },
+    {
+      "id": "REQ003",
+      "donationId": "DON003",
+      "recipientId": "USR002",
+      "requestedQuantity": 15,
+      "servingsNeeded": 25,
+      "urgency": "low",
+      "status": "pending",
+      "requestedAt": "2026-10-31T17:35:00+05:30",
+      "note": "Fruit distribution for tomorrow morning."
+    }
+  ]
+}

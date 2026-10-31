@@ -1,0 +1,35 @@
+{
+  "volunteers": [
+    {
+      "id": "VOL001",
+      "userId": "USR003",
+      "name": "Rohan Das",
+      "phone": "+91 90000 10003",
+      "area": "New Town / Salt Lake",
+      "availability": "available",
+      "completedDeliveries": 18,
+      "rating": 4.9,
+      "transport": "Motorcycle"
+    },
+    {
+      "id": "VOL002",
+      "name": "Moumita Sen",
+      "phone": "+91 90000 10006",
+      "area": "Kestopur / Baguiati",
+      "availability": "on_delivery",
+      "completedDeliveries": 12,
+      "rating": 4.8,
+      "transport": "Bicycle"
+    },
+    {
+      "id": "VOL003",
+      "name": "Arjun Roy",
+      "phone": "+91 90000 10007",
+      "area": "Bidhannagar",
+      "availability": "available",
+      "completedDeliveries": 9,
+      "rating": 4.7,
+      "transport": "Car"
+    }
+  ]
+}

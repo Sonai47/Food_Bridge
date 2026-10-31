@@ -1,0 +1,80 @@
+{
+  "deliveries": [
+    {
+      "id": "DEL001",
+      "donationId": "DON002",
+      "requestId": "REQ001",
+      "volunteerId": "VOL002",
+      "donorAddress": "Kestopur, Kolkata",
+      "recipientAddress": "Bidhannagar, Kolkata",
+      "distanceKm": 4.2,
+      "pickupDeadline": "2026-10-31T19:00:00+05:30",
+      "status": "picked_up",
+      "timeline": [
+        {
+          "status": "assigned",
+          "label": "Pickup assigned",
+          "time": "2026-10-31T16:20:00+05:30"
+        },
+        {
+          "status": "picked_up",
+          "label": "Food collected",
+          "time": "2026-10-31T17:05:00+05:30"
+        },
+        {
+          "status": "in_transit",
+          "label": "In transit",
+          "time": null
+        },
+        {
+          "status": "delivered",
+          "label": "Delivered",
+          "time": null
+        },
+        {
+          "status": "confirmed",
+          "label": "Recipient confirmed",
+          "time": null
+        }
+      ]
+    },
+    {
+      "id": "DEL002",
+      "donationId": "DON004",
+      "requestId": "REQ004",
+      "volunteerId": "VOL001",
+      "donorAddress": "Kestopur, Kolkata",
+      "recipientAddress": "Baguiati, Kolkata",
+      "distanceKm": 3.1,
+      "pickupDeadline": "2026-10-31T18:30:00+05:30",
+      "status": "delivered",
+      "timeline": [
+        {
+          "status": "assigned",
+          "label": "Pickup assigned",
+          "time": "2026-10-31T16:10:00+05:30"
+        },
+        {
+          "status": "picked_up",
+          "label": "Food collected",
+          "time": "2026-10-31T16:45:00+05:30"
+        },
+        {
+          "status": "in_transit",
+          "label": "In transit",
+          "time": "2026-10-31T17:00:00+05:30"
+        },
+        {
+          "status": "delivered",
+          "label": "Delivered",
+          "time": "2026-10-31T17:35:00+05:30"
+        },
+        {
+          "status": "confirmed",
+          "label": "Recipient confirmed",
+          "time": "2026-10-31T17:45:00+05:30"
+        }
+      ]
+    }
+  ]
+}

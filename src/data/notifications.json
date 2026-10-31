@@ -1,0 +1,31 @@
+{
+  "notifications": [
+    {
+      "id": "NOT001",
+      "userId": "USR001",
+      "type": "request_received",
+      "title": "New donation request",
+      "message": "Hope Foundation requested your Assorted Bread & Buns donation.",
+      "read": false,
+      "createdAt": "2026-10-31T16:00:00+05:30"
+    },
+    {
+      "id": "NOT002",
+      "userId": "USR003",
+      "type": "pickup_assigned",
+      "title": "Pickup assigned",
+      "message": "You have been assigned a pickup in Kestopur.",
+      "read": false,
+      "createdAt": "2026-10-31T16:20:00+05:30"
+    },
+    {
+      "id": "NOT003",
+      "userId": "USR002",
+      "type": "delivery_update",
+      "title": "Food collected",
+      "message": "The volunteer has collected your requested donation.",
+      "read": true,
+      "createdAt": "2026-10-31T17:05:00+05:30"
+    }
+  ]
+}

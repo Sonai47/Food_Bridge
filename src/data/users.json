@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "USR001",
+      "name": "Ananya Foods",
+      "email": "donor@foodbridge.demo",
+      "role": "donor",
+      "organization": "Ananya Foods Restaurant",
+      "phone": "+91 90000 10001",
+      "address": "Salt Lake Sector V, Kolkata",
+      "verified": true,
+      "avatar": "/images/avatars/donor-1.jpg"
+    },
+    {
+      "id": "USR002",
+      "name": "Hope Foundation",
+      "email": "recipient@foodbridge.demo",
+      "role": "recipient",
+      "organization": "Hope Foundation Shelter",
+      "phone": "+91 90000 10002",
+      "address": "Bidhannagar, Kolkata",
+      "verified": true,
+      "avatar": "/images/avatars/ngo-1.jpg"
+    },
+    {
+      "id": "USR003",
+      "name": "Rohan Das",
+      "email": "volunteer@foodbridge.demo",
+      "role": "volunteer",
+      "phone": "+91 90000 10003",
+      "address": "New Town, Kolkata",
+      "verified": true,
+      "avatar": "/images/avatars/volunteer-1.jpg"
+    },
+    {
+      "id": "USR004",
+      "name": "Sunrise Bakery",
+      "email": "bakery@foodbridge.demo",
+      "role": "donor",
+      "organization": "Sunrise Bakery",
+      "phone": "+91 90000 10004",
+      "address": "Kestopur, Kolkata",
+      "verified": true,
+      "avatar": "/images/avatars/donor-2.jpg"
+    },
+    {
+      "id": "USR005",
+      "name": "Community Kitchen",
+      "email": "kitchen@foodbridge.demo",
+      "role": "recipient",
+      "organization": "Community Kitchen Kolkata",
+      "phone": "+91 90000 10005",
+      "address": "Baguiati, Kolkata",
+      "verified": true,
+      "avatar": "/images/avatars/ngo-2.jpg"
+    }
+  ]
+}

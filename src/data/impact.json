@@ -1,0 +1,56 @@
+{
+  "summary": {
+    "mealsSaved": 1240,
+    "foodRescuedKg": 386,
+    "activeDonors": 42,
+    "ngoPartners": 16,
+    "activeVolunteers": 28,
+    "completedDeliveries": 96
+  },
+  "monthlyMealsSaved": [
+    {
+      "month": "May",
+      "meals": 120
+    },
+    {
+      "month": "Jun",
+      "meals": 165
+    },
+    {
+      "month": "Jul",
+      "meals": 190
+    },
+    {
+      "month": "Aug",
+      "meals": 210
+    },
+    {
+      "month": "Sep",
+      "meals": 245
+    },
+    {
+      "month": "Oct",
+      "meals": 310
+    }
+  ],
+  "recentActivity": [
+    {
+      "id": "ACT001",
+      "label": "40 meals donated by Ananya Foods",
+      "time": "2 hours ago",
+      "type": "donation"
+    },
+    {
+      "id": "ACT002",
+      "label": "30 bakery servings delivered to Hope Foundation",
+      "time": "3 hours ago",
+      "type": "delivery"
+    },
+    {
+      "id": "ACT003",
+      "label": "New volunteer joined FoodBridge",
+      "time": "Yesterday",
+      "type": "volunteer"
+    }
+  ]
+}
