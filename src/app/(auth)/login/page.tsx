@@ -92,11 +92,11 @@ export default function LoginPage() {
           </div>
 
           <div className="relative flex py-2 items-center">
-            <div className="flex-grow border-t border-gray-200"></div>
-            <span className="flex-shrink mx-4 text-xs font-semibold text-gray-400 uppercase">
+            <div className="grow border-t border-gray-200"></div>
+            <span className="shrink mx-4 text-xs font-semibold text-gray-400 uppercase">
               Or Sign In With Email
             </span>
-            <div className="flex-grow border-t border-gray-200"></div>
+            <div className="grow border-t border-gray-200"></div>
           </div>
 
           {/* Form */}

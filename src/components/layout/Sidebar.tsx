@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useAppStore } from '@/store/useAppStore';
@@ -16,7 +15,6 @@ import {
   BellRing,
   Bike,
   ClipboardList,
-  MapPin,
   UserCheck,
   Settings,
   LogOut,

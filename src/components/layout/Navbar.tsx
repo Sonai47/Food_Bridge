@@ -75,7 +75,7 @@ export default function Navbar() {
                 href="/login"
                 className="px-4 py-2 rounded-xl text-xs font-semibold text-[#24332B] hover:bg-gray-100 transition-colors"
               >
-                Demo Sign In
+                Sign In
               </Link>
               <Link
                 href="/select-role"

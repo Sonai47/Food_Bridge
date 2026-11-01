@@ -121,26 +121,24 @@ export default function AboutPage() {
       </div>
 
       {/* Heritage Institute Academic Info */}
-      <div className="rounded-3xl bg-[#E9F5ED] p-8 sm:p-12 border border-[#36A86B]/20 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="space-y-2 max-w-xl">
-          <div className="flex items-center gap-2 text-xs font-bold text-[#176B45] uppercase tracking-wider">
-            <GraduationCap className="w-4 h-4" />
-            <span>Academic Lab Project</span>
-          </div>
-          <h3 className="text-xl font-bold text-[#176B45]">
-            Heritage Institute of Technology, Kolkata
-          </h3>
-          <p className="text-xs text-[#24332B]/80 leading-relaxed">
-            Department of Computer Science & Engineering (IoT & Cyber Security including Blockchain
-            Technology). Design Thinking and Ideation Lab, Academic Year 2026.
+      <div className="rounded-3xl bg-[#E9F5ED] p-8 sm:p-12 border border-[#36A86B]/20 flex flex-col items-center text-center gap-5">
+        <div className="w-12 h-12 rounded-2xl bg-white text-[#176B45] flex items-center justify-center shadow-sm">
+          <HeartHandshake className="w-6 h-6" />
+        </div>
+        <div className="max-w-2xl space-y-2">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#24332B]">
+            Designed for meaningful community impact
+          </h2>
+          <p className="text-sm text-[#718078] leading-relaxed">
+            Developed under a community-driven approach, FoodBridge removes the 3 biggest barriers to food donation: safety concerns,
+            coordination headaches, and transport logistics.
           </p>
         </div>
-
         <Link
           href="/select-role"
-          className="px-6 py-3 rounded-xl text-xs font-bold bg-[#176B45] text-white hover:bg-[#125737] shadow-sm transition-all shrink-0"
+          className="px-6 py-3 rounded-xl text-xs font-bold bg-[#176B45] text-white hover:bg-[#125737] shadow-sm transition-all"
         >
-          Try the Demo Platform
+          Try the Platform
         </Link>
       </div>
     </div>

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useAppStore } from '@/store/useAppStore';
 import FoodCard from '@/components/food/FoodCard';
 import ImpactChart from '@/components/common/ImpactChart';
@@ -94,49 +95,25 @@ export default function LandingPage() {
               </div>
             </div>
 
-            {/* Visual preview card */}
+            {/* Community food-sharing image */}
             <div className="lg:col-span-5 relative">
-              <div className="bg-white p-6 rounded-3xl shadow-xl border border-gray-100 relative z-10">
-                <div className="flex items-center justify-between pb-4 border-b border-gray-100 mb-4">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-xl bg-[#E9F5ED] text-[#176B45] flex items-center justify-center font-bold">
-                      FB
-                    </div>
-                    <div>
-                      <h4 className="text-xs font-bold text-[#24332B]">Live Dispatch Activity</h4>
-                      <p className="text-[10px] text-[#718078]">Kolkata Metro Corridor</p>
-                    </div>
-                  </div>
-                  <span className="flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-bold bg-emerald-50 text-emerald-700">
-                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-                    Active Now
-                  </span>
-                </div>
-
-                <div className="space-y-3">
-                  {impact.recentActivity.slice(0, 3).map((act) => (
-                    <div
-                      key={act.id}
-                      className="flex items-center gap-3 p-3 rounded-xl bg-[#F8FAF7] border border-gray-100"
-                    >
-                      <div className="w-8 h-8 rounded-lg bg-white shadow-2xs flex items-center justify-center text-[#176B45] shrink-0">
-                        {act.type === 'donation' ? (
-                          <Utensils className="w-4 h-4" />
-                        ) : (
-                          <Truck className="w-4 h-4" />
-                        )}
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <p className="text-xs font-semibold text-[#24332B] truncate">{act.label}</p>
-                        <p className="text-[10px] text-[#718078]">{act.time}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="mt-5 pt-4 border-t border-gray-100 flex items-center justify-between text-xs">
-                  <span className="text-[#718078]">Average Transit Time</span>
-                  <span className="font-bold text-[#176B45]">32 minutes</span>
+              <div className="relative min-h-[420px] overflow-hidden rounded-3xl shadow-xl">
+                <Image
+                  src="https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?auto=format&fit=crop&w=1200&q=85"
+                  alt="Volunteers sharing prepared meals with the community"
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 42vw"
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#123c2a]/90 via-[#123c2a]/15 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 p-6 text-white">
+                  <p className="text-xs font-bold uppercase tracking-[0.2em] text-emerald-200">
+                    FoodBridge Community
+                  </p>
+                  <h2 className="mt-2 text-2xl font-bold leading-tight">
+                    Every shared meal makes a difference.
+                  </h2>
                 </div>
               </div>
             </div>
@@ -378,11 +355,6 @@ export default function LandingPage() {
             <FoodCard key={donation.id} donation={donation} showActionButton={true} />
           ))}
         </div>
-      </section>
-
-      {/* 6. Community Impact Analytics Chart */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <ImpactChart data={impact.monthlyMealsSaved} />
       </section>
 
       {/* 7. Call To Action Banner */}

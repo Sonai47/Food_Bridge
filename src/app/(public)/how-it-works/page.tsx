@@ -171,17 +171,17 @@ export default function HowItWorksPage() {
 
       {/* CTA Box */}
       <div className="text-center space-y-4">
-        <h3 className="text-xl font-bold text-[#24332B]">Ready to test the platform?</h3>
+        <h3 className="text-xl font-bold text-[#24332B]">Ready to get started?</h3>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <Link
             href="/select-role"
-            className="px-6 py-3 rounded-xl font-bold text-xs bg-[#176B45] text-white hover:bg-[#125737] shadow-sm transition-all"
+            className="w-52 px-6 py-3 rounded-xl font-bold text-xs bg-[#176B45] text-white hover:bg-[#125737] shadow-sm transition-all"
           >
-            Launch Interactive Demo
+            Explore the Platform
           </Link>
           <Link
             href="/matching"
-            className="px-6 py-3 rounded-xl font-bold text-xs bg-white text-[#176B45] border border-[#176B45] hover:bg-[#E9F5ED] transition-all"
+            className="w-52 px-6 py-3 rounded-xl font-bold text-xs bg-white text-[#176B45] border border-[#176B45] hover:bg-[#E9F5ED] transition-all"
           >
             Explore Smart Matching
           </Link>

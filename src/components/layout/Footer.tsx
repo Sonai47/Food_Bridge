@@ -78,7 +78,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/select-role" className="hover:text-[#36A86B] transition-colors">
-                  Switch Demo Role
+                  Switch Role
                 </Link>
               </li>
             </ul>
@@ -86,19 +86,13 @@ export default function Footer() {
 
           {/* Column 4: Design Thinking Lab Info */}
           <div className="space-y-3">
-            <h4 className="text-sm font-semibold tracking-wider uppercase text-white/90">
-              Academic Lab
-            </h4>
-            <p className="text-xs text-gray-300 leading-relaxed">
-              Design Thinking and Ideation Lab project by CSE (IoT-CS), Heritage Institute of
-              Technology, Kolkata (2026).
-            </p>
+            
             <div className="flex flex-col gap-1.5 text-xs text-gray-400 pt-2">
               <span className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5 text-[#36A86B]" /> Kolkata, West Bengal
               </span>
               <span className="flex items-center gap-2">
-                <Mail className="w-3.5 h-3.5 text-[#36A86B]" /> info@foodbridge.demo
+                <Mail className="w-3.5 h-3.5 text-[#36A86B]" /> info@foodbridge.in
               </span>
             </div>
           </div>
